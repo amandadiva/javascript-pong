@@ -2,6 +2,7 @@
 let xBolinha = 300;
 let yBolinha = 200;
 let tamBolinha = 25;
+letraioBolinha = tamanhoBolinha/2;
 
 //config velocidade bolinha
 let xvelocidadeBolinha = 6;
@@ -18,7 +19,9 @@ function setup(){
     createCanvas(600,400);
 }
 
+//área de desenho
 function draw(){
+    background(128, 128, 0);
     //função responsável pelo "desenho e animação da mesa"
     //aqui vou por a cor da "mesa"
     //A cor da mesa é em rgb
